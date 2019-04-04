@@ -11,13 +11,13 @@ public class PruebaEmpleados {
         
        Empleado [] empleados = new Empleado[3];
        
-        empleados [0]= new Empleado ("Juan:   ",1000,2001);
+        empleados [0]= new Empleado ("Andres:   ",1000,2001);
         
-        Jefe jefe = new Jefe ("Pedro: ",1200,1999,0.5f);
+        Jefe jefe = new Jefe ("Felipe: ",1200,1999,0.5f);
         
         empleados[1]= jefe;
         
-        empleados[2]= new Administrativo ("Enrique : ",900,2003,jefe);
+        empleados[2]= new Administrativo ("Meza : ",900,2003,jefe);
         
        
        
