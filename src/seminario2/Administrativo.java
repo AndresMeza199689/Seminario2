@@ -7,6 +7,7 @@ public class Administrativo extends Empleado {
     private static final float FACTOR= 0.1f; 
     
     private Jefe jefe;
+    
 
     public Administrativo(String nombre, float salario, 
             int anyoAlta, Jefe jefe) {
@@ -18,10 +19,12 @@ public class Administrativo extends Empleado {
     public void setJefe(Jefe jefe) {
         this.jefe = jefe;
     }
+    
 
     public Jefe getJefe() {
         return jefe;
     }
+    
     
    public float getSalario(){
        

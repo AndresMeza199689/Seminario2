@@ -8,6 +8,8 @@ public class Empleado {
     private float salario;
     private int anyoAlta;
 
+    
+    
     public Empleado(String nombre, float salario, int anyoAlta) {
         this.nombre = nombre;
         this.salario = salario;
